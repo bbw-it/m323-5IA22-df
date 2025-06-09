@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <title>Drehbuch M323 - FS '25</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      display: flex;
+    }
+
+    #content {
+      flex: 1;
+      padding: 0rem 2rem;
+      max-width: 800px;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3 {
+      scroll-margin-top: 18px;
+    }
+
+    #nav {
+      width: 300px;
+      padding: 0rem 2rem;
+      border-left: 1px solid #ddd;
+      position: sticky;
+      top: 0;
+      height: 100vh;
+      overflow-y: auto;
+      background-color: #f9f9f9;
+    }
+
+    #nav h3 {
+      font-size: 1.1em;
+    }
+
+    #nav ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    #nav li {
+      margin-top: 0.3em;
+      font-size: 0.9em;
+    }
+
+    #nav li.indent-2 {
+      margin-left: 1em;
+    }
+
+    #nav li.indent-3 {
+      margin-left: 2em;
+    }
+
+    #nav a {
+      text-decoration: none;
+      color: black;
+    }
+
+    #nav a:hover {
+      text-decoration: underline;
+    }
+
+    h2 {
+      margin-top: 2em;
+    }
+
+    .highlight {
+      background-color: yellow;
+    }
+
+    @media (max-width: 800px) {
+      body {
+        flex-direction: column;
+      }
+      #nav {
+        width: 100%;
+        height: auto;
+        border-left: none;
+        border-top: 1px solid #ddd;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div id="content">Lade Inhalte...</div>
+    <nav id="nav"><h3>Navigation</h3><ul id="toc"></ul></nav>
+
+  <script>
+    const SCROLL_KEY = "scrollPosition";
+
+    // 🧩 Position merken
+    window.addEventListener("beforeunload", () => {
+        sessionStorage.setItem(SCROLL_KEY, window.scrollY);
+    });
+    
+    async function renderMarkdownAndScroll() {
+      try {
+        const response = await fetch("README.md");
+        const markdown = await response.text();
+        const html = marked.parse(markdown);
+        document.getElementById("content").innerHTML = html;
+
+        buildNavigation();
+        scrollToCurrentWeek();
+
+        // gespeicherte Position zurückholen (z.B. nach Datei-Anzeige)
+        const lastScrollY = sessionStorage.getItem(SCROLL_KEY);
+        if (lastScrollY !== null) {
+            window.scrollTo(0, parseFloat(lastScrollY));
+        }
+      } catch (error) {
+        document.getElementById("content").innerHTML = "Fehler beim Laden von README.md";
+        console.error(error);
+      }
+    }
+
+    function slugify(text) {
+      return text.toLowerCase().replace(/[^\w]+/g, "-");
+    }
+
+    function buildNavigation() {
+      const toc = document.getElementById("toc");
+      toc.innerHTML = "";
+
+      const elements = document.querySelectorAll("#content h1, #content h2, #content h3");
+      elements.forEach((el) => {
+        const id = slugify(el.textContent);
+        el.id = id;
+
+        const li = document.createElement("li");
+        const level = parseInt(el.tagName.substring(1)); // holt 1, 2 oder 3
+        li.classList.add(`indent-${level}`);
+
+        const a = document.createElement("a");
+        a.href = "#" + id;
+        a.textContent = el.textContent;
+        li.appendChild(a);
+        toc.appendChild(li);
+      });
+    }
+
+    function getWeekNumber() {
+      const d = new Date(Date.UTC(new Date().getFullYear(), new Date().getMonth(), new Date().getDate()));
+      const dayNum = d.getUTCDay() || 7;
+      d.setUTCDate(d.getUTCDate() + 4 - dayNum);
+      const yearStart = new Date(Date.UTC(d.getUTCFullYear(), 0, 1));
+      const week = Math.ceil(((d - yearStart) / 86400000 + 1) / 7);
+      return week < 10 ? "0" + week : week.toString();
+    }
+
+    function scrollToCurrentWeek() {
+      const target = "Woche " + getWeekNumber();
+      const headers = document.querySelectorAll("h2");
+      for (let h of headers) {
+        if (h.textContent.includes(target)) {
+          h.classList.add("highlight");
+          h.scrollIntoView({ behavior: "auto", block: "start" });
+          break;
+        }
+      }
+    }
+
+    document.addEventListener("DOMContentLoaded", renderMarkdownAndScroll);
+  </script>
+</body>
+</html>
