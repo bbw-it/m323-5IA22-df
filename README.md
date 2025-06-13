@@ -8,25 +8,25 @@ Drehbuch D. Fahrni
 
 ### Rekursion verstehen
 
-10_1_RekursionEinleitung.pdf
+[10_1_RekursionEinleitung.pdf](10_Rekursion/10_1_RekursionEinleitung.pdf)
 
 - Einführung ins Thema mit Film
 - Was sagt Wikipedia?
 - Erstes Verstehen, Rekursion grafisch dargestellt
 - Sind Rekursionen effizient?
 
-10_2_RekursionMerkmale.pdf
+[10_2_RekursionMerkmale.pdf](10_Rekursion/10_2_RekursionMerkmale.pdf)
 
 - Was sind die Merkmale einer Rekursion, mit Hilfe von Niki erklärt
 
-10_3_RekursionNachvollziehen.pdf
+[10_3_RekursionNachvollziehen.pdf](10_Rekursion/10_3_RekursionNachvollziehen.pdf)
 
 - Lösen Sie die erste Aufgabe, ohne sie zu programmieren
 - Anschliessend Erklärung zum Ablauf
 - Seite 2
 
-10_4_RekursionAusprobieren.pdf</br>
-10_5_RekursionAusprobierenLSG.pdf
+[10_4_RekursionAusprobieren.pdf](10_Rekursion/10_4_RekursionAusprobieren.pdf)</br>
+[10_5_RekursionAusprobierenLSG.pdf](10_Rekursion/10_5_RekursionAusprobierenLSG.pdf)
 
 - Implementieren Sie bekannte rekursive Algorithmen.
 - Hilfe aus dem Internet ist explizit erlaubt
@@ -35,7 +35,7 @@ Drehbuch D. Fahrni
 
 ### Hausaufgabe
 
-10_4_RekursionAusprobieren.pdf
+[10_4_RekursionAusprobieren.pdf](10_Rekursion/10_4_RekursionAusprobieren.pdf)
 
 - Implementieren Sie mindestens 1 der bekannten Probleme
    - Ergebnissicherung gemäss Aufgabe (inkl. Header mit Author)</br>
@@ -61,14 +61,14 @@ Rückblick
 - Was sind die Merkmale einer rekursiven Methode?
 - Wiederholung: "Treppe ab, Treppe rauf" für Fakultät
 
-10_4_RekursionAusprobieren.pdf
+[10_4_RekursionAusprobieren.pdf](10_Rekursion/10_4_RekursionAusprobieren.pdf)
 
 - Sie haben als Hausaufgabe mind. 1 bekannte rekursive Algorithmen implementiert.
 - Mit dem Lernpartner:
   - Skizzieren Sie "Treppe runter, Treppe rauf" für Ihre Lösungen
   - Kontrollieren Sie sich gegenseitig
 
-10_4_RekursionAusprobieren.pdf
+[10_4_RekursionAusprobieren.pdf](10_Rekursion/10_4_RekursionAusprobieren.pdf)
 
   - Implementieren Sie 2 weitere der bekannten Probleme auf Seite 1
     - Klassen-Header mit Name versehen
@@ -88,15 +88,15 @@ Repetieren Sie:
 
 ### Rekursion verstehen
 
-10_4_RekursionAusprobieren.pdf
+[10_4_RekursionAusprobieren.pdf](10_Rekursion/10_4_RekursionAusprobieren.pdf)
 
 - Fragen klären
 - Besprechen
-- Siehe auch 10_5_RekursionAusprobierenLSG.pdf
+- Siehe auch [10_5_RekursionAusprobierenLSG.pdf](10_Rekursion/10_5_RekursionAusprobierenLSG.pdf)
 
 ### Rekursion selber entwickeln
 
-11_1_RekursionSelberEntwickeln.pdf
+[11_1_RekursionSelberEntwickeln.pdf](11_RekursionSelberEntwickeln/11_1_RekursionSelberEntwickeln.pdf)
 
 - Input zum Beispiel Fakultät mit Herleitung der Rekursion
 - Aufgabe "einfache Schleife in Rekursion umwandeln"
@@ -105,7 +105,7 @@ Repetieren Sie:
 
 ### Hausaufgabe
 
-11_1_RekursionSelberEntwickeln.pdf
+[11_1_RekursionSelberEntwickeln.pdf](11_RekursionSelberEntwickeln/11_1_RekursionSelberEntwickeln.pdf)
 
 - Implementieren Sie mindestens drei der Aufgaben auf Seite 3.
 
@@ -113,19 +113,19 @@ Repetieren Sie:
 
 ### Rekursion selber entwickeln
 
-11_1_RekursionSelberEntwickeln.pdf
+[11_1_RekursionSelberEntwickeln.pdf](11_RekursionSelberEntwickeln/11_1_RekursionSelberEntwickeln.pdf)
 
 - Input: doppelte Schleife in Rekursion umwandlen.
 - Implementieren mindestens eine der Ideen auf Seite 7
 
 ### Backtracking
 
-12_1_RekursionDameEinleitung
+[12_1_RekursionDameEinleitung](12_RekursionBacktracking/12_1_RekursionDameEinleitung.pdf)
 
 - Lösen Sie das Probelm 8 Damen auf einem Schachbrett
   - Es gibt mehrere Lösungen
 
-12_2_RekursionDame.pdf
+[12_2_RekursionDame.pdf](12_RekursionBacktracking/12_2_RekursionDame.pdf)
 
 - Input: Ansatz erklären
    - Zeile um Zeile
@@ -140,7 +140,7 @@ Repetieren Sie:
 
 ### Hausaufgabe
 
-11_1_RekursionSelberEntwickeln.pdf
+[11_1_RekursionSelberEntwickeln.pdf](11_RekursionSelberEntwickeln/11_1_RekursionSelberEntwickeln.pdf)
 
 - Implementieren Sie mindestens eine Idee auf Seite 7
 
@@ -148,13 +148,13 @@ Repetieren Sie:
 
 ### Rekursion selber entwickeln
 
-11_1_RekursionSelberEntwickeln.pdf
+[11_1_RekursionSelberEntwickeln.pdf](11_RekursionSelberEntwickeln/11_1_RekursionSelberEntwickeln.pdf)
 
 - Fragen klären
 
 ### Backtracking
 
-12_2_RekursionDame.pdf
+[12_2_RekursionDame.pdf](12_RekursionBacktracking/12_2_RekursionDame.pdf)
 
 - weiter mit der Aufgabe
   - Folgen Sie der Anleitung  
@@ -194,7 +194,7 @@ Vorbereiten auf Lernkontrolle
 
 ### Backtracking
 
-12_2_RekursionDame.pdf
+[12_2_RekursionDame.pdf](12_RekursionBacktracking/12_2_RekursionDame.pdf)
 
 - weiter mit der Aufgabe
     - Folgen Sie der Anleitung
@@ -214,15 +214,15 @@ Aufsicht (durch Peter Rutschmann)
 
 Klassische Anwendung von Rekursionen finden Sie bei Trees
 
-- Wandtafel-Bäume1.jpg
+- [Wandtafel-Bäume1.jpg](13_BinäreBäume/Wandtafel-Bäume1.jpg)
 - Tree aufbauen, Elemente einfügen, finden...
 - Tree verschieden traversieren
 
-13.1_BinäreBäume
+[13.1_BinäreBäume.pdf](13_BinäreBäume/13.1_BinäreBäume.pdf)
 
 - Input zu Trees
 
-13.2.1_MorseCodeAlsBaum
+[13.2.1_MorseCodeAlsBaum.pdf](13_BinäreBäume/13.2.1_MorseCodeAlsBaum.pdf)
 
 - Input um was es geht
 - Aufgabe umsetzen
@@ -241,7 +241,9 @@ Klassische Anwendung von Rekursionen finden Sie bei Trees
 
 ### Funktionales Programmieren mit Java
 
-15.1_JavaFunctionProgramming.pdf
+[Folien](15_FP_JavaErsteSchritte/15.0_FP_with_Java.pdf)
+
+[15.1_JavaFunctionProgramming.pdf](15_FP_JavaErsteSchritte/15.1_JavaFunctionProgramming.pdf)
 
 - Aufgabe: Erste Umsetzung... mind. die ersten 3 Videos
 - Aufgabe: Können Sie die Inhalte des Tutorials erklären und anwenden?
@@ -256,7 +258,7 @@ Klassische Anwendung von Rekursionen finden Sie bei Trees
 
 ### Funktionales Programmieren mit Java
 
-16.1_FunktionalSortieren.pdf
+[16.1_FunktionalSortieren.pdf](16_JavaFunctionalSortieren/16.1_FunktionalSortieren.pdf)
 
 - Einleitung
 - Aufgabe: Vorbereitung der Datenklasse
@@ -296,7 +298,7 @@ Ferien, kein Unterricht
 Letztes Mal und als Hausaufgabe sind Sie bis zur Compartor-Chain gekommen.</br>
 Sie arbeiten selbständig an den Aufgaben aus dem Dokument.</br>
 
-16.1_FunktionalSortieren.pdf
+[16.1_FunktionalSortieren.pdf](16_JavaFunctionalSortieren/16.1_FunktionalSortieren.pdf)
 
 - Input Wie funktioniert Comparator.comparing(…)?
 - Input interface java.lang.Comparable<T>
@@ -367,7 +369,7 @@ Vertiefung:
 
 ### Sortieren mit Streams und Lambdas
 
-16.3_SortierMitStreamsVerleichMitLambdas.pdf
+[16.3_SortierMitStreamsVerleichMitLambdas.pdf](16_JavaFunctionalSortieren/16.3_SortierMitStreamsVerleichMitLambdas.pdf)
 
 ### Hausaufgabe
 
@@ -411,11 +413,11 @@ Auffahrtsbrücke, kein Unterricht
 
 ### Verschiedene Functional Interfaces
 
+[Folien](17_JavaFunctionalInterface/17.0_FI_and_Lambdas.pdf)
+
 [17.1_JavaFunctionalInterfaces.pdf](17_JavaFunctionalInterface/17.1_JavaFunctionalInterfaces.pdf)
 
 [17.2_AufgabenZuJavaFunctionalInterfaces.pdf](17_JavaFunctionalInterface/17.2_AufgabenZuJavaFunctionalInterfaces.pdf)
-
-[Folien](17_JavaFunctionalInterface/FI%20and%20Lambdas.pdf)
 
 ### Hausaufgabe
 
