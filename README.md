@@ -431,43 +431,32 @@ Prüfung Nachholen
 
 ### Funktionales Programmieren mit Java
 
-20.1_JavaStreams.pdf
+[15.1_JavaFunctionProgramming.pdf](15_FP_JavaErsteSchritte/15.1_JavaFunctionProgramming.pdf)
 
-- Erste Gegenüberstellung
-- Aufgabe Erste Umsetzung... mind die ersten 3 Videos
-- Aufgabe Können Sie die Inhalte des Tutorials erklären und anwenden?
-   - Erstellen Sie dazu eine neue Java Klasse mit einer main() Funktion
-   - Implementeren Sie die Aufgaben in dieser main() Funktion.
+- Repetition: Nochmals kurz in die [Video-Tutorials](https://www.youtube.com/watch?v=UZpuInfZxNs&list=PLpiIfc1A7RhEaTGkA9velxuFo8S9SbyQ_&index=2) reinschauen
 
 ### Streams and charts
 
-20.3_JavaStreamsAnwenden.pdf
+[20.3_JavaStreamsAnwenden.pdf](20_JavaStreams/20.3_JavaStreamsAnwenden.pdf)
 
 - Anleitung zu Streams
 - Die Idee: Statistische Auswertung und grafische Darstellung
 - Aufgabe: Einfache erste Grafik zeichnen
-- Aufgabe: Mein Beispiel zu den Wahlen 2024 nachspielen
-
-### Hausaufgabe
-
-- Assignment Java Streams
+- Aufgabe: [Beispiel zu den Wahlen 2024](https://github.com/bbw-it/m323-stream-and-chart) nachspielen
+- Aufgabe: Daten aus einer Quelle aufbereiten und darstellen
+- Aufgabe: weitere Daten aus einer Quelle aufbereiten und darstellen
 
 ## 27.06.2025 | Woche 26
 
 ### Streams and charts
 
-20.3_JavaStreamsAnwenden.pdf
+[20.3_JavaStreamsAnwenden.pdf](20_JavaStreams/20.3_JavaStreamsAnwenden.pdf)
 
-- Anleitung zu Streams
-- Die Idee: Statistische Auswertung und grafische Darstellung
-- Aufgabe: Einfache erste Grafik zeichnen
-- Aufgabe: Mein Beispiel zu den Wahlen 2024 nachspielen
-- Aufgabe: Daten aus einer Quelle aufbereiten und darstellen
-- Aufgabe: weiter Daten aus einer Quelle aufbereiten und darstellen
-- Bewertung nach Bewertungsraster
-  - Minimum: Das Beispiel zu den Wahlen 2024 nachspielen und eine eigene (einfache) Anwendung
-  - Gut: mein Beispiel + eine weitere (komplexere) oder zwei eigene (komplexere) Anwendungen
-  - Abgabe bis 26.06.2025
+- Arbeiten fortsetzen...
+
+### Hausaufgabe
+
+- Assignment Java Streams
 
 ## 04.07.2025 | Woche 27
 
