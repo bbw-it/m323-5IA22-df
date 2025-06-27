@@ -467,9 +467,13 @@ Prüfung Nachholen
 - Kapitel 6. Funktionales Programmieren mit Java, Functional Interfaces
 - Kapitel 7. Funktionales Programmieren mit Java Streams
 - Es geht um das Verständnis zum Thema
-- Dauer: ca. 30'
+- Dauer: ca. 15' (MC-Aufgaben)
 
 ### Mit Refactoring zu Clean Code
+
+- [Code-Repository](https://github.com/bbw-it/m323-refactoring-legacy-code)
+- [Die Mikado Methode - Teil 1](https://youtu.be/qtIGDc6LTls)
+- [Die Mikado Methode - Teil 2](https://youtu.be/z90Ov1kNpgQ)
 
 ## 11.07.2025 | Woche 28
 
