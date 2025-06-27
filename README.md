@@ -456,7 +456,7 @@ Prüfung Nachholen
 
 ### Hausaufgabe
 
-- Assignment Java Streams
+- Assignment Java Streams, fällig am 03. Juli
 
 ## 04.07.2025 | Woche 27
 
@@ -467,13 +467,21 @@ Prüfung Nachholen
 - Kapitel 6. Funktionales Programmieren mit Java, Functional Interfaces
 - Kapitel 7. Funktionales Programmieren mit Java Streams
 - Es geht um das Verständnis zum Thema
-- Dauer: ca. 30'
+- Dauer: ca. 15' (MC-Aufgaben)
 
 ### Mit Refactoring zu Clean Code
+
+[23.1_GuildedRose.pdf](23_Refactorings/23.1_GuildedRose.pdf)
+
+### Hausaufgabe
+
+- Assignment über Unterrichtsqualität, fällig am 10. Juli
 
 ## 11.07.2025 | Woche 28
 
 ### Mit Refactoring zu Clean Code
+
+[23.2_MikadoMethod.pdf](23_Refactorings/23.2_MikadoMethod.pdf)
 
 ## 18.07.2025 | Woche 29
 
